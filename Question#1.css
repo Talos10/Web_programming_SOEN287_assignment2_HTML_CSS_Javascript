@@ -1,0 +1,103 @@
+div.headerDiv{
+    background-color: beige;
+    color: rebeccapurple;
+    font-size: 50px;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid #663399;
+    width: 50%;
+}
+
+p.textSize{
+    font-size: 15px;
+}
+
+table{
+    margin: 20px;
+    border: 15px green;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-right-style: dotted;
+    border-left-style: dotted;
+    width: 70%;
+}
+
+#row1{
+    background-color: chocolate;
+    color: crimson;
+}
+
+th.headingCells{
+    padding: 10px;
+}
+
+.row2Col1{
+    background-color: cadetblue;
+    border: 15px solid darkcyan;
+    margin: 20px;
+    padding: 10px;
+    width: 30%;
+}
+
+.row2Col2{
+    background-color: darkgoldenrod ;
+    border: 15px solid gold;
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+.row2Col2TextColor{
+    color: gold;
+}
+
+.row3Col1{
+    background-color: deepskyblue;
+    border: 15px solid cornflowerblue;
+    margin: 20px;
+    padding: 10px;
+    width: 30%;
+}
+
+.row3Col2{
+    background-color: violet;
+    border: 15px solid darkviolet;
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+.row3Col2TextColor{
+    color: darkviolet;
+}
+
+ol.upperRoman{
+    list-style-type: upper-roman;
+}
+
+ol.upperAlpha{
+    list-style-type: upper-alpha;
+}
+
+ol.armenian{
+    list-style-type: armenian;
+}
+
+ul.firstPic{
+    list-style-image: url("Smiley face.png");
+    font-size: 25px;
+}
+
+ul.secondPic{
+    list-style-image: url("Dolphin.jpg");
+    font-size: 25px;
+}
+
+li.normalSquare{
+    list-style: square none;
+}
+
+body{
+    background-image: url("Cars.jpg") ;
+    background-size: 500px 500px;
+}

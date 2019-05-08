@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question#4</title>
+    <script src="a2q4.js"></script>
+</head>
+<body>
+
+<h1>Assignment 2 Question 4</h1>
+
+<script>
+    var para = document.createElement("p");
+
+    var paraTxtNode = document.createTextNode("The number of words starting with \"pa\" or \"po\" and not containing the letter \"u\" is: " + a2q4(["party", "flight", "cave", "whole", "bubble", "pollution"]));
+
+    var body = document.getElementsByTagName("body")[0];
+
+    para.appendChild(paraTxtNode);
+
+    body.appendChild(para);
+</script>
+
+</body>
+</html>

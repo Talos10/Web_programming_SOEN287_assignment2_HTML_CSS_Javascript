@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question#3</title>
+    <script type="text/javascript">
+
+        function init() {
+
+            var num;
+
+            num = prompt("Please enter a number for the multiplication table:");
+
+            var body = document.getElementsByTagName("body")[0];
+
+            var table = document.createElement("table");
+
+            var endMsg = document.createElement("p");
+
+            var endMsgTextNode = document.createTextNode("Written by Razvan Ivan (ID: 40096278)");
+
+            endMsg.appendChild(endMsgTextNode);
+
+            table.setAttribute("border", "1");
+
+            table.setAttribute("width", "50%");
+
+
+            for (var i = 0; i <= num; i++) {
+
+                var row = document.createElement("tr");
+
+                for (var j = 0; j <= num; j++) {
+
+                    var element = document.createElement("th");
+
+                    if(i === 0)
+                        element.innerHTML = "" + j;
+
+                    else if(j === 0)
+                        element.innerHTML = "" + i;
+
+                    else
+                        element.innerHTML = "" + j*i;
+
+                    row.appendChild(element);
+                }
+
+                table.appendChild(row);
+            }
+
+            body.appendChild(table);
+
+            body.appendChild(endMsg);
+        }
+    </script>
+</head>
+<body onload="init()">
+</body>
+</html>
